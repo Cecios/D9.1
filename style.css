@@ -1,0 +1,35 @@
+.flex-row{
+    display: flex;
+    gap: 20px;
+}
+.child{
+    background-color: orange;
+    width: 100px;
+    aspect-ratio: 1/1;
+}
+.child input{
+    width: 70px;
+}
+.order-1{
+    order: 1;
+}
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
+}
+.order-4{
+    order: 4;
+}
+.order-5{
+    order: 5;
+}
+.order--1{
+    order: -1;
+}
+#flex-grow .child{
+    width: unset;
+    flex-grow: 1;
+    max-width: 30%;
+}
